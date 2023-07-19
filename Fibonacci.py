@@ -1,0 +1,12 @@
+n = int(input("enter length of fibonacci series: "))
+n1=0
+n2=1
+nxt_n=0
+count=1
+while(count<=n):
+    print(nxt_n,end=" ")
+    count+=1
+    n1=n2
+    n2=nxt_n
+    nxt_n=n1+n2
+    t_n=n1+n2
